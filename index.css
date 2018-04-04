@@ -5,47 +5,54 @@ body{
 }
 
 .container{
-	/*background-image: url("https://images.unsplash.com/photo-1420310414923-bf3651a89816?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=35b6c4a51f79996d2d1d036b924a6f4c&auto=format&fit=crop&w=500&q=60");*/
+	background-image: url("images/unsplash_laptop.jpg");
 	background-color: lightblue;
 	width: 100%;
-	/*height: 800px;*/
+	height: 300px;
 	background-size: cover;
-	background-position: 25% 0;
+	background-position: 50% 50%;
 	position: relative;
-}
-
-.laptop-image {
-	width: 100%;
-	/*height: 800px;*/
+	/*top: -30px;
+	bottom: -30px;*/
 }
 
 .profile-logo {
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	text-align: center;
 	position: relative;
-	width: 60%;
-	top: -820px;
-	bottom: -820px;
+	top: -75px;
+	/*bottom: -80px;*/
+}
+
+.logo {
+		/*position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: -75px;*/
+			/*margin-top: -15px;*/
+
 }
 
 .intro {
-	font-size: 1rem;
+	font-size: 0.7rem;
 	position: absolute;
-	top: 200px;
-	left: 14.5%;
-	right: 14.5%;
+	top: 60px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 	color: white;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.3);
 
 }
 
-.my-intro {
+/*.my-intro {
 	margin: 0 auto;
 	text-align: center;
 	padding: 0;
 }
-
+*/
 .me {
 	margin: 0;
 }
@@ -53,20 +60,29 @@ body{
 .contact-here {
 	text-decoration: none;
 	position: absolute;
-	top: 380px;
-	left: 5%;
-	right: 5%;
+	top: 110px;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 .contact-here h3{
+	/*font-size: 1rem;*/
+
 	color: #12456d;
 	border: 3px solid #12456d;
-	width: 210px;
-	margin: 0 auto;
-	padding-top: 1px;
-	padding-bottom: 2px;
+	/*width: 210px;*/
+	/*margin: 0 auto;*/
+	/*padding: 1px;*/
+	/*padding-bottom: 2px;*/
+	/*position: absolute;*/
+	/*top: 100px;*/
 	border-radius: 15px;
 	background-color: white;
+	display: inline-block;
+	/*text-align: center;
+	left: 0;
+	right: 0;*/
 }
 
 .contact-here h3:hover {
@@ -74,10 +90,11 @@ body{
 }
 .more {
 	position: absolute;
-	top: 430px;
+	top: 150px;
 	font-size: 20px;
-	left: 22.5%;
-	right: 22.5%;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 .learn-more  {
@@ -99,6 +116,10 @@ body{
 
 .skills-intro h1{
 	color: black;
+}
+
+.eventza {
+	padding-top: 2%;
 }
 
 .about-skills {
@@ -123,6 +144,9 @@ body{
 
 .about-work {
 	text-align: center;
+	border-bottom: 2px solid lightgrey;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .image {
@@ -136,35 +160,39 @@ body{
 }
 
 .type {
-	padding: 0 20%;
+	padding: 0 35%;
 }
 
 .list {
 		width: 50%;
 	}
 
-.budgetly-type {
+.type {
 	padding: 0 35%;
 }
 
 .my-bucketlist-type {
-	padding-left: 80px;
-	padding-right: 80px;
+	padding: 0 80px;
+	padding: 0 80px;
 }
 
+
+
+
 .website-button {
-	margin: 10% auto;
+	margin: 8% auto;
 	border: 3px solid #12456d;
 	background-color: white;
 	border-radius: 15px;
 	color: #12456d;
 	padding-top: 4px;
-	padding-bottom: 2px;
+	padding-bottom: 4px;
 }
 
 .website-line {
 	border-bottom: 1px solid grey;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
+	clear: both;
 }
 
 .website-button:hover {
@@ -192,26 +220,27 @@ body{
 	padding: 2%;
 }
 
-
-@media (min-width: 365px) {
+@media (min-width: 350px) {
 	.work {
-		padding: 10%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.about-work {
+		width: 100%;
 	}
 }
 
 @media (min-width: 420px) {
 	.work {
-		padding: 15%;
+		padding-left: 15%;
+		padding-right: 15%;
 	}
-
-/*@media (min-width: 400px) {
-	.work {
-		padding: 15%;
-	}*/
 
 @media (min-width: 445px) {
 	.work {
-		padding: 20%;
+		padding-left: 20%;
+		padding-right: 20%;
 	}
 
 	.list {
@@ -234,13 +263,47 @@ body{
 		text-align: center;
 	}
 
+
+@media (min-width: 465px) {
+	.container {
+		height: 465px;
+	}
+
+	.profile-logo {
+		top: -65px;
+	}
+
+	.intro {
+		top: 120px;
+	}
+
+	.contact-here {
+		top: 190px;
+	}
+
+	.contact-here h3 {
+		padding: 11px;
+		border-radius: 11px;
+	}
+
+	.more {
+		top: 250px;
+	}
+
+	/*.learn-more h5 {
+		color: black;
+	}*/
+
 @media (min-width: 499px) {
 	.work {
-		padding: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	.about-work h1{
 		padding-top: 0;
+		/*width: 600px;*/
+
 	}
 
 	.apps-info {
@@ -248,21 +311,28 @@ body{
 	}
 
 	.type {
-		padding: 0 20%;
+		padding: 0 32%;
 		/*text-align: center;*/
 	}
-
-	/*li {
-		text-align: center;
-	}*/
 
 	.app-info {
 		width: 50%;
 		float: right;
 	}
 
-	.budgetly-type {
+	.about-apps {
+		width: 50%;
+	}
+
+	.about-budget {
+		width: 50%;
+		float: right;
+	}
+	/*.budgetly-type {
 		text-align: center;
+	}*/
+	.my-bucketlist-type {
+		padding: 0 21%;
 	}
 
  
@@ -280,6 +350,7 @@ body{
 	    float: left;
 	}
 }
+	
 
 @media (min-width: 670px) {
 	.intro {
@@ -288,13 +359,137 @@ body{
 	}
 }
 
-@media (min-width: 900px) {
-	.website-line {
-		margin-bottom: 7%;
+@media (min-width: 730px) {
+	.container {
+		height: 650px;
 	}
 
+	.profile-logo {
+		top: -45px;
+	}
+
+	.intro {
+		top: 150px;
+		font-size: 1.27rem;
+	}
+
+	.contact-here {
+		top: 300px;
+	}
+
+	.more {
+		top: 380px;
+	}
+
+	.about-work {
+		width: 50%;
+	}
+}
+
+@media (min-width: 900px) {
+	/*.website-line {
+		margin-bottom: 5%;
+	}*/
+
 	.type {
+		padding: 0 40%;
+	}
+
+	.my-bucketlist-type {
 		padding: 0 35%;
 	}
+}
+
+
+@media (min-width: 980px) {
+	.profile-logo{
+		top: -50px;
+	}
+
+	.intro {
+		top: 150px;
+	}
+
+	.contact-here {
+		top: 300px;
+	}
+}
+@media (min-width: 1115px) {
+	.container {
+		height: 1000px;
+	}
+
+	.intro {
+		top: 250px;
+	}
+
+	.contact-here {
+		top: 500px;
+	}
+
+	.more {
+		top: 600px;
+	}
+
+	/*.profile-logo {
+		top: -95px;
+	}
+*/
+}
+
+@media (min-width: 1150px) {
+	.container {
+		height: 1000px;
+	}
+
+	.profile-logo {
+		top: -25px;
+	}
+
+	.intro {
+		top: 250px;
+		font-size: 1.47rem;
+	}
+
+	.contact-here {
+		top: 500px;
+	}
+
+	/*.about-budget {
+	float: right;
+}
+*/
+/*.about-apps {
+	width: 50%;
+}
+.about-app {
+	color: grey;
+
+}
+
+.web-button {
+	width: 50%;
+}
+
+.web-button-budgetly {
+	float: right;
+}*/
+
+/*.about-budgetly {
+	float: right;
+}*/
+
+/*.budgetly-button {
+		float: right;
+}*/
+
+
+.budgetly {
+	clear: both;
+}
+
+.my-bucketlist{
+	clear: both;
+}
 }
 
