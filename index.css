@@ -313,10 +313,12 @@ body{
 
 	.intro {
 		top: 120px;
+		font-size: 30px;
 	}
 
 	.contact-here {
-		top: 190px;
+		top: 210px;
+		font-size: 18px;
 	}
 
 	.contact-here h3 {
@@ -325,7 +327,7 @@ body{
 	}
 
 	.more {
-		top: 250px;
+		top: 280px;
 	}
 
 	.about-app {
@@ -433,11 +435,11 @@ body{
 
 	.intro {
 		top: 150px;
-		font-size: 1.27rem;
+		font-size: 2.37rem;
 	}
 
 	.contact-here {
-		top: 300px;
+		top: 290px;
 	}
 
 	.more {
@@ -563,14 +565,17 @@ body{
 
 	.intro {
 		top: 250px;
+		font-size: 3.47rem;
 	}
 
 	.contact-here {
-		top: 500px;
+		top: 450px;
+		font-size: 25px;
 	}
 
 	.more {
 		top: 600px;
+		font-size: 20px;
 	}
 
 	.budgetly-image {
@@ -616,11 +621,11 @@ body{
 
 	.intro {
 		top: 250px;
-		font-size: 1.47rem;
+		/*font-size: 3.47rem;*/
 	}
 
 	.contact-here {
-		top: 500px;
+		top: 450px;
 	}
 
 	/*.about-budget {
