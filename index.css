@@ -226,6 +226,10 @@ body{
 	padding-bottom: 4px;
 }
 
+.project-site {
+	text-decoration: none;
+}
+
 .website-line {
 	border-bottom: 1px solid grey;
 	margin-bottom: 7%;
@@ -248,14 +252,33 @@ body{
 	font-size: 18px;
 }
 
-.social-buttons{
-	background-color: black;
-	color: white;
+.mail-link {
+	color: cyan;
 }
 
-.social-buttons p{
-	margin: 0;
-	padding: 2%;
+.mail-link:hover {
+	color: lightblue;
+}
+
+.social-buttons{
+	background-color: black;
+	/*color: white;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social-buttons.social{
+	margin: 2% auto;
+	text-align: center;
+	padding: 4%;
+	/*padding: 2%;*/
+}
+
+.handles{
+	text-align: center;
+	padding: 1%;
+	/*width: 4%;*/
+	/*margin: 0 auto;*/
 }
 
 @media (min-width: 350px) {
@@ -274,6 +297,21 @@ body{
 		padding-left: 15%;
 		padding-right: 15%;
 	}
+
+	/*.website{
+		width: 100%;
+		display: inline-block;
+	}*/
+
+	.web-button{
+		/*width: 50%;*/
+		display: inline-block;
+		margin: 6%;
+	}
+
+	/*.website-button{
+		display: inline-block;
+	}*/
 
 @media (min-width: 445px) {
 	.work {
@@ -611,6 +649,7 @@ body{
 	.budgetly .website-button {
 		margin-bottom: 12%;
 	}
+
 	.contact-details {
 		padding: 2%;
 		font-size: 20px;
@@ -618,6 +657,10 @@ body{
 
 	.social-buttons p {
 		padding: 1%;
+	}
+
+	.budgetly-web-button{
+		margin-bottom: 10%;
 	}
 }
 
