@@ -93,7 +93,7 @@ body{
 .more {
 	position: absolute;
 	top: 175px;
-	font-size: 18px;
+	font-size: 16px;
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -422,6 +422,14 @@ body{
 		color: black;
 		background-color: rgba(0, 0, 0, 0);
 	}
+
+	.skills {
+		margin: 5% auto;
+	}
+
+	.about-skills {
+		padding: 0;
+	}
 }
 
 @media (min-width: 730px) {
@@ -461,6 +469,7 @@ body{
 	.app-heading {
 		margin: 45% auto 1%;
 	}
+
 }
 
 
@@ -557,6 +566,8 @@ body{
 		padding: 0 21%;
 	}
 
+	
+
 }
 @media (min-width: 1115px) {
 	.container {
@@ -627,6 +638,10 @@ body{
 	.contact-here {
 		top: 450px;
 	}
+
+	
+
+
 
 	/*.about-budget {
 	float: right;
