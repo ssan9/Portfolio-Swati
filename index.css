@@ -276,7 +276,7 @@ body{
 
 .handles{
 	text-align: center;
-	/*padding: 1%;*/
+	padding: 1%;
 	margin: 5% auto;
 }
 
@@ -374,8 +374,8 @@ body{
 		color: black;
 	}*/
 	.handles {
-	/*padding: 1%;*/
-	 	margin: 3% auto;
+		padding: 2%;
+	 	margin: 0 auto;
 	}
 }
 
@@ -610,7 +610,9 @@ body{
 		padding: 0 21%;
 	}
 
-	
+	.handles {
+		padding: 1%;
+	}	
 
 }
 @media (min-width: 1115px) {
