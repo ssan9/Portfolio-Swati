@@ -268,17 +268,16 @@ body{
 }
 
 .social-buttons.social{
-	margin: 2% auto;
+	margin: 6% auto;
 	text-align: center;
-	padding: 4%;
+	padding: 8%;
 	/*padding: 2%;*/
 }
 
 .handles{
 	text-align: center;
 	padding: 1%;
-	/*width: 4%;*/
-	/*margin: 0 auto;*/
+	margin: 5% auto;
 }
 
 @media (min-width: 350px) {
@@ -312,6 +311,11 @@ body{
 	/*.website-button{
 		display: inline-block;
 	}*/
+
+	.handles{
+		/*padding: 1%;*/
+		margin: 4% auto;
+	}
 
 @media (min-width: 445px) {
 	.work {
@@ -446,6 +450,10 @@ body{
 	.app-heading {
 		margin: 25% auto 1%;
 	}
+
+	.handles {
+		margin: 3% auto;
+	}
 }
 
 
@@ -468,6 +476,11 @@ body{
 	.about-skills {
 		padding: 0;
 	}
+
+	.handles {
+		margin: 2% auto;
+	}
+
 }
 
 @media (min-width: 730px) {
@@ -501,6 +514,11 @@ body{
 	.app-heading {
 		margin: 35% auto 1%;
 	}
+
+	.handles {
+		margin: 1% auto;
+	}
+
 }
 
 @media (min-width: 860px) {
@@ -604,7 +622,14 @@ body{
 		padding: 0 21%;
 	}
 
-	
+	.handles {
+		margin: 0 auto;
+	}
+
+	.contact-details {
+		padding: 3%;
+		font-size: 20px;
+	}
 
 }
 @media (min-width: 1115px) {
