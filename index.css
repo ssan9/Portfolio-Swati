@@ -373,10 +373,9 @@ body{
 	/*.learn-more h5 {
 		color: black;
 	}*/
-	.handles{
-	text-align: center;
+	.handles {
 	/*padding: 1%;*/
-	margin: 4% auto;
+	 	margin: 3% auto;
 	}
 }
 
