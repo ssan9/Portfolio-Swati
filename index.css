@@ -439,6 +439,12 @@ body{
 	.budgetly-image {
 	    float: left;
 	}*/
+
+	.handles{
+	text-align: center;
+	/*padding: 1%;*/
+	margin: 4% auto;
+}
 }
 
 @media (min-width: 560px) {
