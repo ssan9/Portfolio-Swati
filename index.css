@@ -373,6 +373,12 @@ body{
 	/*.learn-more h5 {
 		color: black;
 	}*/
+	.handles{
+	text-align: center;
+	/*padding: 1%;*/
+	margin: 4% auto;
+	}
+}
 
 @media (min-width: 499px) {
 	.work {
@@ -440,11 +446,7 @@ body{
 	    float: left;
 	}*/
 
-	.handles{
-	text-align: center;
-	/*padding: 1%;*/
-	margin: 4% auto;
-}
+	
 }
 
 @media (min-width: 560px) {
