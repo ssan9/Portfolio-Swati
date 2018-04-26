@@ -13,26 +13,12 @@ body{
 	background-size: cover;
 	background-position: 50% 50%;
 	position: relative;
-	/*top: -30px;
-	bottom: -30px;*/
 }
 
 .profile-logo {
-	/*margin: 0 auto;*/
 	text-align: center;
 	position: relative;
 	top: -75px;
-	/*bottom: -80px;*/
-}
-
-.logo {
-		/*position: absolute;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
-		top: -75px;*/
-			/*margin-top: -15px;*/
-
 }
 
 .intro {
@@ -49,12 +35,6 @@ body{
 	font-family: 'Marmelad', sans-serif;
 }
 
-/*.my-intro {
-	margin: 0 auto;
-	text-align: center;
-	padding: 0;
-}
-*/
 .me {
 	margin: 0;
 }
@@ -69,28 +49,19 @@ body{
 }
 
 .contact-here h3{
-	/*font-size: 1rem;*/
-
 	color: #12456d;
 	border: 3px solid #12456d;
-	/*width: 210px;*/
-	/*margin: 3% auto;*/
 	padding: 1%;
 	font-weight: 600;
-	/*padding-bottom: 2px;*/
-	/*position: absolute;*/
-	/*top: 100px;*/
 	border-radius: 15px;
 	background-color: white;
 	display: inline-block;
-	/*text-align: center;
-	left: 0;
-	right: 0;*/
 }
 
 .contact-here h3:hover {
 	background-color: lightblue;
 }
+
 .more {
 	position: absolute;
 	top: 175px;
@@ -225,7 +196,6 @@ body{
 	color: #12456d;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	/*width: 15%;*/
 }
 
 .project-site {
@@ -241,23 +211,6 @@ body{
 .website-button:hover {
 	background-color: lightblue;
 }
-
-/*.github-code{
-	width: 35px;
-	font-weight: 900;
-}*/
-
-
-
-/*.project-button {*/
-	/*width: 35px;*/
-/*	color: ;
-}*/
-
-
-/*.social-link {
-	color: blue;
-}*/
 
 .contact-me{
 	background-color: #12456d;
@@ -290,14 +243,7 @@ body{
 	margin: 6% auto;
 	text-align: center;
 	padding: 8%;
-	/*padding: 2%;*/
 }
-
-/*.handles{
-	text-align: center;
-	padding: 1%;
-	margin: 5% auto;
-}*/
 
 i.fa{
 	color: #12456d;;
@@ -332,20 +278,10 @@ i.fa-github{
 		padding-right: 15%;
 	}
 
-	/*.website{
-		width: 100%;
-		display: inline-block;
-	}*/
-
 	.web-button{
-		/*width: 50%;*/
 		display: inline-block;
 		margin: 6%;
 	}
-
-	/*.website-button{
-		display: inline-block;
-	}*/
 
 @media (min-width: 445px) {
 	.work {
@@ -422,65 +358,20 @@ i.fa-github{
 
 	.about-work h1{
 		padding-top: 0;
-		/*width: 600px;*/
 
 	}
 
-	/*.apps-info {
-		width: 50%;
-	}
-*/
 	.type {
 		padding: 0 32%;
-		/*text-align: center;*/
 	}
 
 	.app-heading {
 		margin: 15% auto 1%;
-		/*clear: both;
-		display: block;*/
 	}
 
-	/*.image {
-		clear: both;
-		display: block;
-	}*/
-	/*.app-info {
-		width: 50%;
-		float: right;
-	}*/
-
-	/*.about-apps {
-		width: 50%;
-		color: grey;
-	}*/
-
-	/*.about-budget {
-		float: right;
-	}*/
-	/*.budgetly-type {
-		text-align: center;
-	}*/
 	.my-bucketlist-type {
 		padding: 0 21%;
 	}
-
- 
-	/*.image {
-	  width: 50%;
-	  float: right;
-	  margin: 1% auto;
-	}
-*/
-	/*.pics {
-	  width: 70%;
-	}
-
-	.budgetly-image {
-	    float: left;
-	}*/
-
-	
 }
 
 @media (min-width: 560px) {
@@ -553,10 +444,6 @@ i.fa-github{
 
 
 @media (min-width: 900px) {
-	/*.website-line {
-		margin-bottom: 5%;
-	}*/
-
 	.type {
 		padding: 0 40%;
 	}
@@ -584,10 +471,6 @@ i.fa-github{
 		width: 50%;
 	}
 
-/*.image {
-		clear: both;
-		display: block;
-	}*/
 	.app-info {
 		width: 50%;
 		float: right;
@@ -626,20 +509,14 @@ i.fa-github{
 
 	.about-work h1{
 		padding-top: 0;
-		/*width: 600px;*/
-
 	}
 
 	.app-heading {
 		margin: 0 auto;
 	}
-	/*.apps-info {
-		width: 50%;
-	}
-*/
+	
 	.type {
 		padding: 0 32%;
-		/*text-align: center;*/
 	}
 	.my-bucketlist-type {
 		padding: 0 21%;
@@ -673,10 +550,7 @@ i.fa-github{
 	.budgetly-image {
 		margin: 0 auto;
 	}
-	/*.profile-logo {
-		top: -95px;
-	}
-*/
+	
 	.about-work {
 		margin: 5% auto;
 	}
@@ -718,52 +592,18 @@ i.fa-github{
 
 	.intro {
 		top: 250px;
-		/*font-size: 3.47rem;*/
 	}
 
 	.contact-here {
 		top: 450px;
 	}
 
-	
+	.budgetly {
+		clear: both;
+	}
 
-
-
-	/*.about-budget {
-	float: right;
-}
-*/
-/*.about-apps {
-	width: 50%;
-}
-.about-app {
-	color: grey;
-
-}
-
-.web-button {
-	width: 50%;
-}
-
-.web-button-budgetly {
-	float: right;
-}*/
-
-/*.about-budgetly {
-	float: right;
-}*/
-
-/*.budgetly-button {
-		float: right;
-}*/
-
-
-.budgetly {
-	clear: both;
-}
-
-.my-bucketlist{
-	clear: both;
-}
+	.my-bucketlist{
+		clear: both;
+	}
 }
 
