@@ -1,7 +1,7 @@
 # Portfolio-Swati
 
 # Overview
-This is my portfolio consisting of all the Projects I have built as part of my Online Coding BootCamp Thinkful.
+This is my portfolio consisting of all the skills I have learnt and the Projects I have built as part of my Online Coding BootCamp Thinkful.
 
 # Technical
 - The app is built mainly with front-end technologies, specifically React, Redux, JavaScript, HTML and CSS.
