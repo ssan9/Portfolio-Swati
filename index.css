@@ -143,6 +143,7 @@ body{
 	border-bottom: 2px solid lightgrey;
 	width: 80%;
 	margin: 10% auto;
+	padding-bottom: 1%;
 }
 
 .about-work h1{
@@ -160,7 +161,6 @@ body{
 }
 
 .about-app {
-	font-weight: 600;
 	padding: 4%;
 	font-size: 16px;
 }
@@ -245,6 +245,11 @@ body{
 	padding: 8%;
 }
 
+.web-button {
+	display: inline-block;
+	margin:  8%;
+}
+
 i.fa{
 	color: #12456d;;
 }
@@ -255,6 +260,11 @@ i.fab {
 	text-align: center;
 	padding: 1%;
 	margin: 5% auto;
+}
+
+i.far {
+	color: #18b8ec;
+		padding: 1%;
 }
 
 i.fa-github{
@@ -281,7 +291,10 @@ i.fa-github{
 	.web-button{
 		display: inline-block;
 		margin: 6%;
+		padding: 2%;
 	}
+	
+}
 
 @media (min-width: 445px) {
 	.work {
@@ -366,7 +379,7 @@ i.fa-github{
 	}
 
 	.app-heading {
-		margin: 15% auto 1%;
+		margin: 18% auto 1%;
 	}
 
 	.my-bucketlist-type {
@@ -431,7 +444,7 @@ i.fa-github{
 
 @media (min-width: 750px) {
 	.app-heading {
-		margin: 35% auto 1%;
+		margin: 38% auto 1%;
 	}
 }
 
