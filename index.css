@@ -2,6 +2,7 @@ body{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: sans-serif;
 }
 
 .container{
@@ -45,7 +46,7 @@ body{
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.3);
 	font-weight: 700;
-
+	font-family: 'Marmelad', sans-serif;
 }
 
 /*.my-intro {
@@ -224,6 +225,7 @@ body{
 	color: #12456d;
 	padding-top: 4px;
 	padding-bottom: 4px;
+	/*width: 15%;*/
 }
 
 .project-site {
@@ -239,6 +241,23 @@ body{
 .website-button:hover {
 	background-color: lightblue;
 }
+
+/*.github-code{
+	width: 35px;
+	font-weight: 900;
+}*/
+
+
+
+/*.project-button {*/
+	/*width: 35px;*/
+/*	color: ;
+}*/
+
+
+/*.social-link {
+	color: blue;
+}*/
 
 .contact-me{
 	background-color: #12456d;
@@ -274,10 +293,26 @@ body{
 	/*padding: 2%;*/
 }
 
-.handles{
+/*.handles{
 	text-align: center;
 	padding: 1%;
 	margin: 5% auto;
+}*/
+
+i.fa{
+	color: #12456d;;
+}
+
+
+i.fab {
+	color: #18b8ec;
+	text-align: center;
+	padding: 1%;
+	margin: 5% auto;
+}
+
+i.fa-github{
+	color: white;
 }
 
 @media (min-width: 350px) {
@@ -359,7 +394,7 @@ body{
 	}
 
 	.contact-here h3 {
-		padding: 11px;
+		padding: 15px;
 		border-radius: 11px;
 	}
 
@@ -373,7 +408,7 @@ body{
 	/*.learn-more h5 {
 		color: black;
 	}*/
-	.handles {
+	i.fab {
 		padding: 1%;
 	 	margin: 0 auto;
 	}
@@ -610,7 +645,7 @@ body{
 		padding: 0 21%;
 	}
 
-	.handles {
+	i.fab{
 		padding: 1%;
 	}	
 
