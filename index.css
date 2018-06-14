@@ -153,11 +153,11 @@ body{
 
 .app-heading {
 	font-size: 30px;
-	font-weight: 600;	
+	font-weight: 600;
 }
 
 .tools {
-	margin: 15% auto;
+	margin: 0 auto;
 }
 
 .about-app {
@@ -525,7 +525,7 @@ i.fa-github{
 	}
 
 	.app-heading {
-		margin: 0 auto;
+		margin: 5% auto 2%;
 	}
 	
 	.type {
